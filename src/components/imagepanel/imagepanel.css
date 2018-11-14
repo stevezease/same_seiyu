@@ -1,0 +1,114 @@
+.image-panel-container {
+    transition: all .25s ease;
+}
+
+.image-panel {
+    min-width: 75px;
+    position: relative;
+    transition: all .25s ease;
+}
+
+.panel-image {
+    min-height: 400px;
+    max-height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: -3px 0px 10px 1px black;
+}
+
+.character-panel {
+    flex-grow: 2;
+    transition: all .25s ease;
+}
+
+.character-panel-hover {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    flex-grow: 0;
+    transition: all .25s ease;
+}
+
+.image-panel-hover {
+    z-index: 10;
+    min-width: 225px;
+    height: 400px;
+    transition: all .25s ease;
+}
+
+.image-panel-label {
+    position: absolute;
+    width: 225px;
+    bottom: 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 10px 0px;
+}
+
+.image-panel-description {
+    padding: 10px;
+    color: white;
+    position: absolute;
+    width: 230px;
+    height: auto;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 99999;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-panel-description-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.image-panel-description-content {
+}
+
+.image-panel-external-link {
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 2px solid white;
+    transition: all .25s linear;
+    color: white;
+}
+
+.image-panel-external-link:hover {
+    background-color: white;
+    color: black !important;
+}
+
+.image-panel-external-link:hover a {
+    color: black !important;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color .25s linear;
+}
+
+/*.image-panel::before {*/
+    /*content: " ";*/
+    /*height: 5px;*/
+    /*width: 225px;*/
+    /*position: absolute;*/
+    /*top: 0px;*/
+    /*background-color: black;*/
+    /*left: 0px;*/
+/*}*/
+
+/*.image-panel::after {*/
+    /*content: " ";*/
+    /*height: 5px;*/
+    /*width: 225px;*/
+    /*position: absolute;*/
+    /*bottom: 0px;*/
+    /*background-color: black;*/
+/*}*/

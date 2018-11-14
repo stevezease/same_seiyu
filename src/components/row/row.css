@@ -1,0 +1,32 @@
+.row {
+    color: white;
+    display: flex;
+    margin: 60px 0px;
+    position: relative;
+}
+.seiyu-image-panel {
+    min-width: 225px;
+}
+.seiyu-roles {
+    display: flex;
+    min-width: calc(100vw - 225px);
+    overflow-x: scroll;
+}
+
+.seiyu-ranking {
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    z-index: 11;
+}
+
+.seiyu-external {
+    top: 10px;
+    right: 10px;
+    color: rgba(0,0,0,.6);
+}
