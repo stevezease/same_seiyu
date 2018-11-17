@@ -7,8 +7,17 @@
 .github-button {
     color: white;
     position: absolute;
-    right: 10px;
-    top: 5px;
+    right: 15px;
+    top: 15px;
     font-size: 25px;
+    cursor: pointer;
+}
+
+.disclaimer-button {
+    color: white;
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    font-size: 22px;
     cursor: pointer;
 }
